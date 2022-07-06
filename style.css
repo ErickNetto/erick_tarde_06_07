@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+li{
+    display: inline-flex;
+    font-size: x-large;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bolder;
+    text-shadow: cyan 1px 1px 3px;
+}
