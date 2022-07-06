@@ -2,19 +2,37 @@
     margin: 0%;
     padding: 0%;
 }
-ul{
+header ul{
     background-color: tomato;
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
-li{
+header li{
     display: inline-flex;
     font-size: x-large;
 }
-a{
+header a{
     text-decoration: none;
     color: blueviolet;
     font-weight: bolder;
     text-shadow: cyan 1px 1px 3px;
+}
+body aside{
+    float: right;
+    display:flexbox;
+    width: 300px;
+    margin-top: 100px;
+}
+body aside img{
+    width: 200px;
+    height: 500px;
+    object-fit: cover;
+    object-position:right;
+}
+body{
+    padding: 50px;
+}
+main{
+    padding-top: 50px;
 }
